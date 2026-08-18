@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 100px,200px;
+    padding: 10%;
+    align-items: center;
+}

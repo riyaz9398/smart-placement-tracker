@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+
+    <h2>Welcome, {{ session.user_name }}</h2>
+
+    <a href="/add-company">Add Company</a> |
+    <a href="/logout">Logout</a>
+
+    <hr>
+
+    <h3>Total Companies: {{ total_companies }}</h3>
+
+    <h3>My Applications</h3>
+
+    {% if companies %}
+
+    <table border="1" cellpadding="10">
+
+        <tr>
+            <th>Company</th>
+            <th>Role</th>
+            <th>Package</th>
+            <th>Drive Date</th>
+            <th>Status</th>
+        </tr>
+
+        {% for c in companies %}
+        <tr>
+            <td>{{ c.company_name }}</td>
+            <td>{{ c.role }}</td>
+            <td>{{ c.package_lpa }} LPA</td>
+            <td>{{ c.drive_date }}</td>
+            <td>{{ c.status }}</td>
+        </tr>
+        {% endfor %}
+
+    </table>
+
+    {% else %}
+
+    <p>No companies added yet.</p>
+
+    {% endif %}
+
+</body>
+</html>
