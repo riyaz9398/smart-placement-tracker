@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+}
+
+form {
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    box-sizing: border-box;
+}
+
+input:hover {
+    border: 1px solid green;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: green;
+}

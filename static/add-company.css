@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+h2 {
+    color: green;
+}
+
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+input:hover,
+select:hover {
+    border: 1px solid green;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgreen;
+}

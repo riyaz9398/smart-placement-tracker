@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: green;
+}
+
+p {
+    color: #555;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: darkgreen;
+}
